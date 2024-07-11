@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+  php:
+    image: php:apache
+    ports:
+      - 80:80
+    volumes:
+      - ./php/www:/var/www/html/
